@@ -1,29 +1,32 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
 # 后端
 backend/target/
 backend/uploads/
-*.iml
-.idea/
-*.class
+backend/logs/
+backend/.mvn/wrapper/maven-wrapper.jar
 
 # 前端
 frontend/node_modules/
 frontend/dist/
 frontend/.vite/
-frontend/coverage/
+frontend/pnpm-lock.yaml.bak
 
-# 数据与日志
+# 本地 Docker 数据卷
 .data/
+
+# 日志
 *.log
-logs/
-
-# IDE / OS
-.vscode/
-.DS_Store
-Thumbs.db
-
-# Claude Code 本地配置
-.claude/
 
 # 环境变量
 .env
 .env.local
+!.env.example
