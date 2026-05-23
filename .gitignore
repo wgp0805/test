@@ -23,6 +23,12 @@ frontend/node_modules/
 frontend/dist/
 frontend/.vite/
 frontend/pnpm-lock.yaml.bak
+# 前端 TS 编译副产物（vue-tsc 偶发生成）
+*.tsbuildinfo
+frontend/uno.config.d.ts
+frontend/uno.config.js
+frontend/vite.config.d.ts
+frontend/vite.config.js
 
 # 本地 Docker 数据卷
 .data/
