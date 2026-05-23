@@ -4,6 +4,10 @@
 *.iml
 *.swp
 
+# Claude Code 本地配置
+.claude/
+明天给claude的继续命令.txt
+
 # OS
 .DS_Store
 Thumbs.db
