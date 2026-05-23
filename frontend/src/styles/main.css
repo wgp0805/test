@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #3b82f6;
+  --el-color-primary: #3b82f6;
+}
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #1f2937;
+  background: #f8fafc;
+}
+
+a { color: var(--color-primary); text-decoration: none; }
